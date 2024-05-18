@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artist Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="dist/css/output.css">
+</head>
+
+<body class="font-montserrat">
+    <!-- start: Navbar -->
+    <nav class="h-16 bg-neutral-900 group/navbar" data-navbar="">
+        <div class="max-w-7xl mx-auto px-4 flex items-center justify-between h-full">
+            <div class="flex items-center md:space-x-8">
+                <a href="#" class="text-2xl font-bold tracking-tight text-white">Logo</a>
+                <ul
+                    class="md:flex md:items-center md:space-x-6 space-y-3 md:space-y-0 py-6 px-4 md:p-0 fixed top-0 left-0 md:static z-40 w-full md:w-auto h-full md:h-auto max-w-sm md:max-w-none bg-neutral-900 md:bg-transparent transition-transform md:transition-none duration-500 -translate-x-full md:translate-x-0 group-[.navbar-mobile-shown]/navbar:translate-x-0">
+                    <li>
+                        <a href="#"
+                            class="text-neutral-200 hover:text-white transition-colors text-sm font-medium tracking-tight">About
+                            Us</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="text-neutral-200 hover:text-white transition-colors text-sm font-medium tracking-tight">How
+                            It Works</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="text-neutral-200 hover:text-white transition-colors text-sm font-medium tracking-tight">Why
+                            Join</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="text-neutral-200 hover:text-white transition-colors text-sm font-medium tracking-tight">FAQ</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="text-neutral-200 hover:text-white transition-colors text-sm font-medium tracking-tight">Contact</a>
+                    </li>
+                    <li class="h-0 w-full border-t border-t-neutral-700 md:hidden"></li>
+                    <li class="md:hidden">
+                        <a href="#"
+                            class="text-neutral-200 hover:text-white transition-colors text-sm font-medium tracking-tight">Login</a>
+                    </li>
+                    <li class="absolute top-0 right-4 md:hidden">
+                        <button type="button" class="text-neutral-400 hover:text-white transition-colors"
+                            data-dismiss-navbar="">
+                            <i class="ri-close-large-line"></i>
+                        </button>
+                    </li>
+                </ul>
+                <div class="fixed top-0 left-0 md:hidden w-full h-full bg-black/50 z-30 opacity-0 invisible group-[.navbar-mobile-shown]/navbar:opacity-100 group-[.navbar-mobile-shown]/navbar:visible transition-colors duration-500"
+                    data-dismiss-navbar>
+                </div>
+            </div>
+            <div class="flex items-center">
+                <a href="#"
+                    class="text-neutral-200 hover:text-white transition-colors text-sm font-medium tracking-tight hidden md:block">Login</a>
+                <a href="#" class="btn btn-primary ml-6">Signup</a>
+                <button type="button" data-toggle-navbar=""
+                    class="w-9 h-9 rounded-md bg-neutral-800 md:hidden flex items-center justify-center hover:bg-neutral-700 transition-colors text-white ml-4">
+                    <i class="ri-menu-line"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <!-- end: Navbar -->
+
+    <!-- start: Hero -->
+    <header class="py-12">
+        <div class="max-w-7xl mx-auto px-4">
+            <h1
+                class="text-3xl md:text-6xl font-bold max-w-3xl mx-auto tracking-tight leading-tight md:leading-tight text-center mb-2">
+                Hire the best
+                creative talent for your business</h1>
+            <p class="text-lg md:text-xl text-neutral-600 text-center tracking-tight">Discover the world's best experts
+                for your
+                next project</p>
+            <form class="max-w-2xl mx-auto relative mt-8 mb-4">
+                <input type="text" class="form-control py-4 pl-6 pr-32 text-base shadow-lg shadow-primary-500/10"
+                    placeholder="I'm Looking For">
+                <button type="submit"
+                    class="btn btn-primary absolute top-1/2 -translate-y-1/2 right-2 text-base px-6">Search</button>
+            </form>
+            <div class="flex items-center max-w-2xl mx-auto space-x-4">
+                <div class="text-sm text-neutral-600 tracking-tighter flex-shrink-0">Popular:</div>
+                <div class="flex items-center space-x-2 w-full overflow-x-auto no-scrollbar">
+                    <a href="#"
+                        class="py-1 px-2 rounded border border-neutral-300 text-sm tracking-tight text-neutral-700 whitespace-nowrap hover:text-black hover:bg-neutral-100 transition-colors">Web
+                        Designer</a>
+                    <a href="#"
+                        class="py-1 px-2 rounded border border-neutral-300 text-sm tracking-tight text-neutral-700 whitespace-nowrap hover:text-black hover:bg-neutral-100 transition-colors">Web
+                        Designer</a>
+                    <a href="#"
+                        class="py-1 px-2 rounded border border-neutral-300 text-sm tracking-tight text-neutral-700 whitespace-nowrap hover:text-black hover:bg-neutral-100 transition-colors">Web
+                        Designer</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- end: Hero -->
+
+    <!-- start: Trusted -->
+    <section class="py-12 bg-neutral-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-neutral-600 font-medium tracking-tighter text-center mb-6">Our marketers are trusted by
+            </div>
+            <div class="overflow-hidden -ml-4 -mr-4">
+                <div class="flex items-center space-x-8 animate-trusted hover:[animation-play-state:paused] w-max">
+                    <img src="src/images/framer.png" alt="" class="h-9 w-full object-contain">
+                    <img src="src/images/reddit.png" alt="" class="h-9 w-full object-contain">
+                    <img src="src/images/airbnb.png" alt="" class="h-9 w-full object-contain">
+                    <img src="src/images/tesla.png" alt="" class="h-9 w-full object-contain">
+                    <img src="src/images/uber.png" alt="" class="h-9 w-full object-contain">
+                    <img src="src/images/netflix.png" alt="" class="h-9 w-full object-contain">
+                    <img src="src/images/mailchimp.png" alt="" class="h-9 w-full object-contain">
+                    <img src="src/images/slack.png" alt="" class="h-9 w-full object-contain">
+                    <img src="src/images/medium.png" alt="" class="h-9 w-full object-contain">
+                    <img src="src/images/microsoft.png" alt="" class="h-9 w-full object-contain">
+                    <img src="src/images/framer.png" alt="" class="h-9 w-full object-contain">
+                    <img src="src/images/reddit.png" alt="" class="h-9 w-full object-contain">
+                    <img src="src/images/airbnb.png" alt="" class="h-9 w-full object-contain">
+                    <img src="src/images/tesla.png" alt="" class="h-9 w-full object-contain">
+                    <img src="src/images/uber.png" alt="" class="h-9 w-full object-contain">
+                    <img src="src/images/netflix.png" alt="" class="h-9 w-full object-contain">
+                    <img src="src/images/mailchimp.png" alt="" class="h-9 w-full object-contain">
+                    <img src="src/images/slack.png" alt="" class="h-9 w-full object-contain">
+                    <img src="src/images/medium.png" alt="" class="h-9 w-full object-contain">
+                    <img src="src/images/microsoft.png" alt="" class="h-9 w-full object-contain">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end: Trusted -->
+
+    <!-- start: Portfolio -->
+    <section class="py-12">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex items-center justify-between">
+                <h2 class="text-xl md:text-2xl font-bold tracking-tight leading-tight md:leading-tight">Featured
+                    Portfolios</h2>
+                <a href="#" class="text-primary-500 text-sm font-medium tracking-tight flex items-center group">
+                    <span>View all</span>
+                    <i class="ri-arrow-right-s-line text-lg ml-1 transition-transform group-hover:translate-x-1"></i>
+                </a>
+            </div>
+            <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                <div class="group/featured">
+                    <div class="relative mb-3 h-48 overflow-hidden border border-neutral-200">
+                        <img src="https://github.com/shadcn.png" alt=""
+                            class="w-full h-full object-cover block group-hover/featured:scale-105 transition-transform">
+                        <div
+                            class="absolute bottom-0 left-0 bg-white z-10 py-1 pl-2 pr-4 rounded-tr-2xl flex items-center space-x-1">
+                            <i class="ri-verified-badge-fill text-primary-500"></i>
+                            <span class="text-xs font-medium text-primary-500 tracking-tight">Featured</span>
+                        </div>
+                    </div>
+                    <a href="#" class="font-medium tracking-tight leading-tight truncate block mb-1">Lorem ipsum dolor,
+                        sit amet consectetur adipisicing elit. Dicta, tempora?</a>
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center space-x-1.5">
+                            <img src="https://github.com/shadcn.png" alt="" class="w-5 h-5 rounded-full flex-shrink-0">
+                            <div class="text-xs tracking-tight leading-tight">
+                                <span class="text-neutral-600">by</span>
+                                <a href="#"
+                                    class="font-medium text-neutral-700 hover:underline hover:underline-offset-2 hover:text-black transition-colors">Fajar
+                                    Std</a>
+                            </div>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <div class="flex items-center space-x-1 tracking-tight text-neutral-600">
+                                <i class="ri-heart-3-line text-sm"></i>
+                                <span class="text-xs font-medium">34</span>
+                            </div>
+                            <div class="flex items-center space-x-1 tracking-tight text-neutral-600">
+                                <i class="ri-eye-2-line text-sm"></i>
+                                <span class="text-xs font-medium">23</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="group/featured">
+                    <div class="relative mb-3 h-48 overflow-hidden border border-neutral-200">
+                        <img src="https://github.com/shadcn.png" alt=""
+                            class="w-full h-full object-cover block group-hover/featured:scale-105 transition-transform">
+                        <div
+                            class="absolute bottom-0 left-0 bg-white z-10 py-1 pl-2 pr-4 rounded-tr-2xl flex items-center space-x-1">
+                            <i class="ri-verified-badge-fill text-primary-500"></i>
+                            <span class="text-xs font-medium text-primary-500 tracking-tight">Featured</span>
+                        </div>
+                    </div>
+                    <a href="#" class="font-medium tracking-tight leading-tight truncate block mb-1">Lorem ipsum dolor,
+                        sit amet consectetur adipisicing elit. Dicta, tempora?</a>
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center space-x-1.5">
+                            <img src="https://github.com/shadcn.png" alt="" class="w-5 h-5 rounded-full flex-shrink-0">
+                            <div class="text-xs tracking-tight leading-tight">
+                                <span class="text-neutral-600">by</span>
+                                <a href="#"
+                                    class="font-medium text-neutral-700 hover:underline hover:underline-offset-2 hover:text-black transition-colors">Fajar
+                                    Std</a>
+                            </div>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <div class="flex items-center space-x-1 tracking-tight text-neutral-600">
+                                <i class="ri-heart-3-line text-sm"></i>
+                                <span class="text-xs font-medium">34</span>
+                            </div>
+                            <div class="flex items-center space-x-1 tracking-tight text-neutral-600">
+                                <i class="ri-eye-2-line text-sm"></i>
+                                <span class="text-xs font-medium">23</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="group/featured">
+                    <div class="relative mb-3 h-48 overflow-hidden border border-neutral-200">
+                        <img src="https://github.com/shadcn.png" alt=""
+                            class="w-full h-full object-cover block group-hover/featured:scale-105 transition-transform">
+                        <div
+                            class="absolute bottom-0 left-0 bg-white z-10 py-1 pl-2 pr-4 rounded-tr-2xl flex items-center space-x-1">
+                            <i class="ri-verified-badge-fill text-primary-500"></i>
+                            <span class="text-xs font-medium text-primary-500 tracking-tight">Featured</span>
+                        </div>
+                    </div>
+                    <a href="#" class="font-medium tracking-tight leading-tight truncate block mb-1">Lorem ipsum dolor,
+                        sit amet consectetur adipisicing elit. Dicta, tempora?</a>
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center space-x-1.5">
+                            <img src="https://github.com/shadcn.png" alt="" class="w-5 h-5 rounded-full flex-shrink-0">
+                            <div class="text-xs tracking-tight leading-tight">
+                                <span class="text-neutral-600">by</span>
+                                <a href="#"
+                                    class="font-medium text-neutral-700 hover:underline hover:underline-offset-2 hover:text-black transition-colors">Fajar
+                                    Std</a>
+                            </div>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <div class="flex items-center space-x-1 tracking-tight text-neutral-600">
+                                <i class="ri-heart-3-line text-sm"></i>
+                                <span class="text-xs font-medium">34</span>
+                            </div>
+                            <div class="flex items-center space-x-1 tracking-tight text-neutral-600">
+                                <i class="ri-eye-2-line text-sm"></i>
+                                <span class="text-xs font-medium">23</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="group/featured">
+                    <div class="relative mb-3 h-48 overflow-hidden border border-neutral-200">
+                        <img src="https://github.com/shadcn.png" alt=""
+                            class="w-full h-full object-cover block group-hover/featured:scale-105 transition-transform">
+                        <div
+                            class="absolute bottom-0 left-0 bg-white z-10 py-1 pl-2 pr-4 rounded-tr-2xl flex items-center space-x-1">
+                            <i class="ri-verified-badge-fill text-primary-500"></i>
+                            <span class="text-xs font-medium text-primary-500 tracking-tight">Featured</span>
+                        </div>
+                    </div>
+                    <a href="#" class="font-medium tracking-tight leading-tight truncate block mb-1">Lorem ipsum dolor,
+                        sit amet consectetur adipisicing elit. Dicta, tempora?</a>
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center space-x-1.5">
+                            <img src="https://github.com/shadcn.png" alt="" class="w-5 h-5 rounded-full flex-shrink-0">
+                            <div class="text-xs tracking-tight leading-tight">
+                                <span class="text-neutral-600">by</span>
+                                <a href="#"
+                                    class="font-medium text-neutral-700 hover:underline hover:underline-offset-2 hover:text-black transition-colors">Fajar
+                                    Std</a>
+                            </div>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <div class="flex items-center space-x-1 tracking-tight text-neutral-600">
+                                <i class="ri-heart-3-line text-sm"></i>
+                                <span class="text-xs font-medium">34</span>
+                            </div>
+                            <div class="flex items-center space-x-1 tracking-tight text-neutral-600">
+                                <i class="ri-eye-2-line text-sm"></i>
+                                <span class="text-xs font-medium">23</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end: Portfolio -->
+
+    <!-- start: Why Choose Us -->
+    <section class="py-12 bg-neutral-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-x-6 gap-y-8">
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"
+                        class="w-10 h-10 mx-auto mb-4 text-primary-500">
+                        <rect width="256" height="256" fill="none" />
+                        <path
+                            d="M208,104a80,80,0,0,0-160,0c0,40.83,30.59,88.18,70.1,95.13h0L104,232h48l-14.09-32.87h0C177.41,192.18,208,144.83,208,104Z"
+                            opacity="0.2" fill="currentColor" />
+                        <path d="M208,104c0,44.18-35.82,96-80,96s-80-51.82-80-96a80,80,0,0,1,160,0Z" fill="none"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" />
+                        <path d="M136,56a49.52,49.52,0,0,1,40,40" fill="none" stroke="currentColor"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="16" />
+                        <polyline points="137.91 199.13 152 232 104 232 118.09 199.13" fill="none" stroke="currentColor"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="16" />
+                    </svg>
+                    <h3 class="font-medium tracking-tight leading-tight text-center mb-1">Free cancellation</h3>
+                    <p class="text-neutral-600 text-center text-sm leading-snug">Until the last time</p>
+                </div>
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"
+                        class="w-10 h-10 mx-auto mb-4 text-primary-500">
+                        <rect width="256" height="256" fill="none" />
+                        <path d="M40,184a16,16,0,0,0,16,16H216a8,8,0,0,0,8-8V80a8,8,0,0,0-8-8H56A16,16,0,0,1,40,56Z"
+                            opacity="0.2" fill="currentColor" />
+                        <path
+                            d="M40,56V184a16,16,0,0,0,16,16H216a8,8,0,0,0,8-8V80a8,8,0,0,0-8-8H56A16,16,0,0,1,40,56h0A16,16,0,0,1,56,40H192"
+                            fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="16" />
+                        <circle cx="180" cy="132" r="12" />
+                    </svg>
+                    <h3 class="font-medium tracking-tight leading-tight text-center mb-1">Free cancellation</h3>
+                    <p class="text-neutral-600 text-center text-sm leading-snug">Until the last time</p>
+                </div>
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"
+                        class="w-10 h-10 mx-auto mb-4 text-primary-500">
+                        <rect width="256" height="256" fill="none" />
+                        <path
+                            d="M54.46,201.54c-9.2-9.2-3.1-28.53-7.78-39.85C41.82,150,24,140.5,24,128s17.82-22,22.68-33.69C51.36,83,45.26,63.66,54.46,54.46S83,51.36,94.31,46.68C106.05,41.82,115.5,24,128,24S150,41.82,161.69,46.68c11.32,4.68,30.65-1.42,39.85,7.78s3.1,28.53,7.78,39.85C214.18,106.05,232,115.5,232,128S214.18,150,209.32,161.69c-4.68,11.32,1.42,30.65-7.78,39.85s-28.53,3.1-39.85,7.78C150,214.18,140.5,232,128,232s-22-17.82-33.69-22.68C83,204.64,63.66,210.74,54.46,201.54Z"
+                            opacity="0.2" fill="currentColor" />
+                        <path
+                            d="M54.46,201.54c-9.2-9.2-3.1-28.53-7.78-39.85C41.82,150,24,140.5,24,128s17.82-22,22.68-33.69C51.36,83,45.26,63.66,54.46,54.46S83,51.36,94.31,46.68C106.05,41.82,115.5,24,128,24S150,41.82,161.69,46.68c11.32,4.68,30.65-1.42,39.85,7.78s3.1,28.53,7.78,39.85C214.18,106.05,232,115.5,232,128S214.18,150,209.32,161.69c-4.68,11.32,1.42,30.65-7.78,39.85s-28.53,3.1-39.85,7.78C150,214.18,140.5,232,128,232s-22-17.82-33.69-22.68C83,204.64,63.66,210.74,54.46,201.54Z"
+                            fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="16" />
+                        <circle cx="96" cy="96" r="16" fill="none" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="16" />
+                        <circle cx="160" cy="160" r="16" fill="none" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="16" />
+                        <line x1="88" y1="168" x2="168" y2="88" fill="none" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="16" />
+                    </svg>
+                    <h3 class="font-medium tracking-tight leading-tight text-center mb-1">Free cancellation</h3>
+                    <p class="text-neutral-600 text-center text-sm leading-snug">Until the last time</p>
+                </div>
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"
+                        class="w-10 h-10 mx-auto mb-4 text-primary-500">
+                        <rect width="256" height="256" fill="none" />
+                        <circle cx="128" cy="128" r="96" opacity="0.2" fill="currentColor" />
+                        <line x1="32" y1="128" x2="224" y2="128" fill="none" stroke="currentColor"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="16" />
+                        <circle cx="128" cy="128" r="96" fill="none" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="16" />
+                        <path d="M168,128c0,64-40,96-40,96s-40-32-40-96,40-96,40-96S168,64,168,128Z" fill="none"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" />
+                    </svg>
+                    <h3 class="font-medium tracking-tight leading-tight text-center mb-1">Free cancellation</h3>
+                    <p class="text-neutral-600 text-center text-sm leading-snug">Until the last time</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end: Why Choose Us -->
+
+    <!-- start: Category -->
+    <section class="py-12">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex items-center justify-between">
+                <h2 class="text-xl md:text-2xl font-bold tracking-tight leading-tight md:leading-tight">Browse by art
+                    category</h2>
+                <a href="#" class="text-primary-500 text-sm font-medium tracking-tight flex items-center group">
+                    <span>View all</span>
+                    <i class="ri-arrow-right-s-line text-lg ml-1 transition-transform group-hover:translate-x-1"></i>
+                </a>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 mt-6 gap-4">
+                <a href="#" class="rounded-xl h-72 bg-violet-600 p-6 flex flex-col overflow-hidden group">
+                    <div class="text-white tracking-tight font-medium">Web Design</div>
+                    <div class="relative h-56 mt-auto -ml-6 -mr-6 -mb-6 overflow-hidden">
+                        <img src="src/images/talent-1.jpg" alt=""
+                            class="object-cover block w-full h-full group-hover:scale-105 transition-transform">
+                        <div
+                            class="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-violet-600 to-violet-600/50">
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="rounded-xl h-72 bg-primary-600 p-6 flex flex-col overflow-hidden group">
+                    <div class="text-white tracking-tight font-medium">Web Design</div>
+                    <div class="relative h-56 mt-auto -ml-6 -mr-6 -mb-6 overflow-hidden">
+                        <img src="src/images/talent-1.jpg" alt=""
+                            class="object-cover block w-full h-full group-hover:scale-105 transition-transform">
+                        <div
+                            class="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-primary-600 to-primary-600/50">
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="rounded-xl h-72 bg-emerald-600 p-6 flex flex-col overflow-hidden group">
+                    <div class="text-white tracking-tight font-medium">Web Design</div>
+                    <div class="relative h-56 mt-auto -ml-6 -mr-6 -mb-6 overflow-hidden">
+                        <img src="src/images/talent-1.jpg" alt=""
+                            class="object-cover block w-full h-full group-hover:scale-105 transition-transform">
+                        <div
+                            class="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-emerald-600 to-emerald-600/50">
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="rounded-xl h-72 bg-rose-600 p-6 flex flex-col overflow-hidden group">
+                    <div class="text-white tracking-tight font-medium">Web Design</div>
+                    <div class="relative h-56 mt-auto -ml-6 -mr-6 -mb-6 overflow-hidden">
+                        <img src="src/images/talent-1.jpg" alt=""
+                            class="object-cover block w-full h-full group-hover:scale-105 transition-transform">
+                        <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-rose-600 to-rose-600/50">
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="rounded-xl h-72 bg-blue-600 p-6 flex flex-col overflow-hidden group">
+                    <div class="text-white tracking-tight font-medium">Web Design</div>
+                    <div class="relative h-56 mt-auto -ml-6 -mr-6 -mb-6 overflow-hidden">
+                        <img src="src/images/talent-1.jpg" alt=""
+                            class="object-cover block w-full h-full group-hover:scale-105 transition-transform">
+                        <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-blue-600 to-blue-600/50">
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- end: Category -->
+
+    <!-- start: Footer -->
+    <footer class="py-12 bg-neutral-900">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+                <div>
+                    <a href="#" class="text-2xl font-bold tracking-tight text-white">Logo</a>
+                    <p class="text-sm text-neutral-400 mt-4">Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div>
+                    <div class="font-semibold text-white tracking-tighter mb-3">Company</div>
+                    <ul class="space-y-2">
+                        <li>
+                            <a href="#"
+                                class="text-sm text-neutral-400 hover:text-white transition-colors tracking-tight">About
+                                Us</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="text-sm text-neutral-400 hover:text-white transition-colors tracking-tight">Privacy
+                                Policy</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="text-sm text-neutral-400 hover:text-white transition-colors tracking-tight">Terms
+                                of Services</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="font-semibold text-white tracking-tighter mb-3">Resources</div>
+                    <ul class="space-y-2">
+                        <li>
+                            <a href="#"
+                                class="text-sm text-neutral-400 hover:text-white transition-colors tracking-tight">FAQ</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="text-sm text-neutral-400 hover:text-white transition-colors tracking-tight">How
+                                It Works</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="text-sm text-neutral-400 hover:text-white transition-colors tracking-tight">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="text-sm text-neutral-400 hover:text-white transition-colors tracking-tight">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="font-semibold text-white tracking-tighter mb-3">Follow Artist</div>
+                    <div class="flex items-center space-x-3">
+                        <a href="#" class="text-neutral-400 hover:text-white text-lg transition-colors"><i
+                                class="ri-linkedin-box-fill"></i></a>
+                        <a href="#" class="text-neutral-400 hover:text-white text-lg transition-colors"><i
+                                class="ri-twitter-fill"></i></a>
+                        <a href="#" class="text-neutral-400 hover:text-white text-lg transition-colors"><i
+                                class="ri-instagram-fill"></i></a>
+                        <a href="#" class="text-neutral-400 hover:text-white text-lg transition-colors"><i
+                                class="ri-tiktok-fill"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end: Footer -->
+
+    <script src="src/js/script.js"></script>
+</body>
+
+</html>
